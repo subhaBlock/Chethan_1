@@ -10,6 +10,8 @@ public class test1 {
 		WebDriver driver=new EdgeDriver();
 		driver.get("https://rahulshettyacademy.com/locatorspractice/");
 		driver.findElement(By.id("inputUsername")).sendKeys("chethan");
+		System.out.println("Hey github");
+		System.out.println("Hey github1");
 
 	
 
@@ -21,6 +23,7 @@ public class test1 {
 		Thread.sleep(1000);
 		driver.findElement(By.cssSelector(".reset-pwd-btn")).click();
 	    String passwordText=driver.findElement(By.cssSelector("form p")).getText();
+	    
 	    
 		
 		
