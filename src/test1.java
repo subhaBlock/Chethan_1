@@ -12,6 +12,10 @@ public class test1 {
 		driver.findElement(By.id("inputUsername")).sendKeys("chethan");
 		System.out.println("Hey github");
 		System.out.println("Hey github1");
+		
+		System.out.println("Branch1");
+		System.out.println("Branch2");
+		
 
 	
 
